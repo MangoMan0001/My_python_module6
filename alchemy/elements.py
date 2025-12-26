@@ -32,9 +32,12 @@ def create_air() -> str:
 
 
 def main() -> None:
-    """None"""
+    """test_elements"""
 
-    pass
+    print(create_fire())
+    print(create_water())
+    print(create_earth())
+    print(create_air())
 
 
 if __name__ == "__main__":
