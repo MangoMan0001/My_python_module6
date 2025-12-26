@@ -31,14 +31,5 @@ def create_air() -> str:
     return "Air element created"
 
 
-def main() -> None:
-    """test_elements"""
-
-    print(create_fire())
-    print(create_water())
-    print(create_earth())
-    print(create_air())
-
-
 if __name__ == "__main__":
-    main()
+    pass

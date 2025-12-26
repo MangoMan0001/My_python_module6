@@ -23,7 +23,8 @@ def invisibility_potion() -> str:
     透明になれるポーションを作る(悪用厳禁！)
     """
 
-    return f"Invisibility potion brewed with {create_air()} and {create_water()}"
+    return (f"Invisibility potion brewed with "
+            f"{create_air()} and {create_water()}")
 
 
 def wisdom_potion() -> str:
@@ -34,3 +35,7 @@ def wisdom_potion() -> str:
     all_four_results = (f"{create_fire()}, {create_water()}, "
                         f"{create_earth()}, {create_air()}")
     return f"Wisdom potion brewed with all elements: {all_four_results}"
+
+
+if __name__ == "__main__":
+    pass
